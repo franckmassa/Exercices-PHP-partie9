@@ -1,0 +1,19 @@
+body{
+    box-shadow: 5px 5px 50px #252534;
+    background: linear-gradient(#252534 5% , #D1D19B 50%, #ECECD9 45%);
+}
+table{
+    border: 5px double white;
+    font-size: 40px; 
+}
+form{
+    font-size: 30px;
+}
+@media all and (max-width : 1280px){
+    table{
+        font-size: 13px;
+    }  
+    form{
+        font-size: 16px;
+    }
+}
